@@ -1,9 +1,7 @@
 import './App.css';
 import Lottie from 'react-lottie';
 import 'react-phone-number-input/style.css'
-import wa from "./lotties/whatsapp.json"
 import wachat from "./lotties/wachat.json"
-import hero from "./icons/wa-svg.svg"
 import React, { useState } from 'react'
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
@@ -41,12 +39,12 @@ const App = () => {
           <h2>Send Whatsapp Message Without Saving The Contact</h2>
           <small>Automatically open your Whatsapp application to compose a new message without saving the phone number.</small>
 
-          {/* <img src= {hero} className="hero" /> */}
-
           <Lottie
           options={waOptions}
-          height={450}
-          width={550} />
+          height={420}
+          width={390} 
+          />       
+
         </div>
 
         <form onSubmit={submitHandler}>
