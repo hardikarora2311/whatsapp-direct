@@ -41,7 +41,7 @@ const App = () => {
 
           <Lottie
           options={waOptions}
-          height={420}
+          height={419}
           width={390} 
           />       
 
