@@ -1,6 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+:root{
+  --nav-bg: #f8f9fa;
+  --btn: #28a745;
+}
+
+.icon{
+  width: 35px;
+  height: 35px;
+  padding-right: 1em;
+}
+
+.navbar{
+  display: flex;
+  background-color: var(--nav-bg);
+  /* border: 2px solid red; */
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 35%);
+  width: 100%;
+}
+
+.nav-heading{
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: center;
+  margin-left: 5em;
+}
+
+.app{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-main{
+  margin-top: 5em;
+  display: flex;
+  width: 85%;
+  /* justify-content: center; */
+  /* border: 2px solid red; */
+}
+
+.section-text{
+  /* border: 2px solid yellow; */
+  color: #212529;
+  width: 55%;
+}
+
+.section-text h2{
+  font-size: 40px;
+  margin-bottom: 0.2em;
+  width: 90%;
+}
+
+.section-main small{
+  font-size: 18px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  flex: 1;
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+
+label{
+  margin-bottom: 0.5em;
+  font-size: 18px;
+}
+
+.PhoneInput{
+  width: 80%;
+  padding: 0.5em;
+}
+
+.PhoneInputInput{
+  padding: 1em;
+  border-radius: 0.3em;
+  text-decoration: none;
+  border: 1px solid #ced4da;
+  font-size: 15px;
+}
+
+.submit-btn{
+  text-decoration: none;
+  background-color: var(--btn);
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  color: white;
+  width: 25%;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+
+footer{
+  background-color: var(--nav-bg);
+  width: 100%;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+} 
+
+footer div{
+  margin: 0.8em 0;
+}
+footer a{
+  text-decoration: none;
+  color:black ;
+  font-style: italic;
 }
 
