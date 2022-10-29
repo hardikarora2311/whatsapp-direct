@@ -21,11 +21,9 @@ const App = () => {
   };
 
   const [value, setValue] = useState()
-  const [showDisplay, setShowDisplay]= useState("none")
 
   const submitHandler= (e) =>{
     e.preventDefault();
-    setShowDisplay("block")
 
   }
 

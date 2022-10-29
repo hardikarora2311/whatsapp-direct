@@ -95,7 +95,7 @@ label{
   padding: 0.5em 1em;
   border-radius: 0.5em;
   color: white;
-  width: 25%;
+  width: 140px;
   text-align: center;
   cursor: pointer;
   margin-top: 1em;
@@ -121,5 +121,36 @@ footer a{
   text-decoration: none;
   color:black ;
   font-style: italic;
+}
+
+
+@media only screen and (max-width: 992px){
+  .section-main{
+    flex-direction: column;
+    width: 95%;
+    margin-top: 2em;
+  }
+
+  .section-text{
+    width: 100%;
+  }
+
+  form{
+    margin: 0;
+  }
+  .submit-btn{
+    align-self: center;
+    width: 80%;
+  }
+
+  .PhoneInput{
+    width: 90%;
+  }
+
+  footer{
+    margin-top: 2em;
+  }
+
+
 }
 
