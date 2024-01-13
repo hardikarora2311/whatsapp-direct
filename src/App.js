@@ -29,7 +29,7 @@ const App = () => {
     <div className="app">
       <div className="navbar">
         <div className="nav-heading">
-          <img src= {waIcon} className='icon'/>
+          <img src= {waIcon} className='icon' alt=""/>
           <h4>SendWhatsappDirect</h4>
         </div>
       </div>
@@ -55,7 +55,7 @@ const App = () => {
               onChange={setValue} 
               defaultCountry="IN"
               className='input' />
-          <a href= {"https://wa.me/"+ value } className="submit-btn" target="_blank">Send Message</a>
+          <a rel="noopener noreferrer" href= {"https://wa.me/"+ value } className="submit-btn" target="_blank">Send Message</a>
           
         </form>
 
